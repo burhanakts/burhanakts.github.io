@@ -2,125 +2,180 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-  <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <title></title>
 </head>
 
 
 <body>
-  <!-- Navbar Başlangıcı-->
+    <!-- Navbar Başlangıcı-->
 
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light py-3 shadow-sm">
-    <div class="container">
-      <a class="navbar-brand text-success fw-bolder fs-4" href="#">FOLOGOS</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-light bg-light py-3 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand text-success fw-bolder fs-4" href="#">FOLOGOS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Çalışmalar</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Hakkımda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">İletişim</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar Sonu-->
-
-  <!--Ana sayfa Section Başlangıcı-->
-  <section class="home py-5 bg-light shadow-top" id="home">
-    <div class="container-lg">
-      <div class="row align-items-center">
-        <div class="col-md-6 align-content-center mt-5 mt-md-0">
-          <div class="home-img text-center">
-            <img class="img-fluid rounded-circle" src="img/logo.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-6 order-md-first mt-5 mt-md-0">
-          <div class="home-text">
-            <p class="text-muted">Merhaba Ben</p>
-            <h1 class="text-success mb-1 text-uppercase fs-1 fw-bold">Burhan Aktaş</h1>
-            <h2 class="fs-5">Bilgisayar Programcısı</h2>
-            <p class="text-muted mt-4">Küçüklükten beri teknolojinin birbiri ile nasıl anlaştığını anlamaya çalışıyorum,
-              kariyerimide bu yönde ilerletmeyi çalışıyorum</p>
-            <a class="btn btn-success mt-3 px-3" href="#portfolio">Çalışmalarım</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Anasayaf Section sonu-->
-
-  <!--Hizmetlerim Section Başlangıcı-->
-
-  <section class="about py-5" id="about">
-    <div class="container-lg">
-      <div class="row">
-        <div class="col-lg-12 ">
-          <div class="section-titler text-center">
-            <h2 class="fw-blod mb-5">Hizmetlerim</h2>
-          </div>
-        </div>
-        <div class="row text-center bg-white">
-          <div class="col-md-6 col-lg-4 shadow-sm">
-            <div class="pt-4 rounded bg-white">
-              <div class="icon text-success fs-1">
-                <img src="img/icon1.png" alt="">
-              </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hizmetlerim">Hizmetlerim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+                </ul>
             </div>
-            <h5 class="fs-5  pt-4">Admin Paneli Entegrasyonu</h5>
-            <p class=" text-muted pt-3 mx-3">web sitelerin her zaman local olarak düzenlenmesi ileriki safhalarda
-              imkansıza yakındır, bu yüzden bir admin paneli gereklidir. Admin paneli entegrasyonu hizmetimizden
-              faydalanabilirsiniz.</p>
-          </div>
-          <div class="col-md-6 col-lg-4 shadow-sm">
-            <div class="pt-4 rounded bg-white">
-              <img src="img/icon2.png" alt="">
-            </div>
-            <h5 class="fs-5  pt-4">Responsive Tasarım</h5>
-            <p class=" text-muted pt-3 mx-3">Günümüzün en çok önemli web kodlamalarından biri responsive tasarımdır. Ortalama üç cihazdan girilen sitenin cihazlara göre ayarlanması gerekmektedir. Aldığınız her hizmetimizde responsive hizmeti sunulmaktadır.</p>
-          </div>
-          <div class="col-md-6 col-lg-4 shadow-sm">
-            <div class="pt-4 rounded bg-white">
-              <div class="icon text-danger fs-1">
-                <i class="far fa-window-restore"></i>
-              </div>
-            </div>
-            <h5 class="fs-5  pt-4">Admin Paneli Entegrasyonu</h5>
-            <p class=" text-muted pt-3 mx-3">web sitelerin her zaman local olarak düzenlenmesi ileriki safhalarda
-              imkansıza yakındır, bu yüzden bir admin paneli gereklidir. Admin paneli entegrasyonu hizmetimizden
-              faydalanabilirsiniz.</p>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </nav>
+    <!-- Navbar Sonu-->
+
+    <!--Ana sayfa Section Başlangıcı-->
+    <section class="home py-5 bg-light shadow-top" id="home">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-md-6 align-content-center mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img class="img-fluid rounded-circle" src="img/profile.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-first mt-5 mt-md-0">
+                    <div class="home-text">
+                        <p class="text-muted">Merhaba Ben</p>
+                        <h1 class="text-success mb-1 text-uppercase fs-1 fw-bold">Ahmet Aldemir</h1>
+                        <h2 class="fs-5">Resim Designer</h2>
+                        <p class="text-muted mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel maxime velit tempora labore! Odit, facere? Omnis molestias quidem neque ex.</p>
+                        <a class="btn btn-success mt-3 px-3" href="#portfolio">Çalışmalarım</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Anasayaf Section sonu-->
+
+    <!--Hizmetlerim Section Başlangıcı-->
+
+    <section class="hakkimda bg-white py-5" id="hakkimda">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="cection-title text-center">
+                        <h2 class="fw-blod mb-5">Hakkımda</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, nesciunt.</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos aliquid animi eveniet soluta minima praesentium?</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4>100</h4>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4>100</h4>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4>100</h4>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+
+                </div>
+            </div>
+            <div class="col-md-6 "></div>
+        </div>
+        </div>
+    </section>
 
 
 
-  <!--Hizmetlerim Section Bitişi-->
+
+    <!--Hizmetlerim Section Sonu-->
+
+    <!--Hizmetlerim Section Başlangıcı-->
+
+    <section class="hizmetlerim bg-light py-5 " id="hizmetlerim ">
+        <div class="container-lg ">
+            <div class="row justify-content-center ">
+                <div class="col-lg-8 ">
+                    <div class="section-title text-center ">
+                        <h2 class="fw-blod mb-5 ">Hizmetlerim</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center ">
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="servies-item shadow p-4 rounded services-item-box ">
+                        <div class="icon text-success fs-1 ">
+                            <img src="img/icon1.png " alt=" ">
+                        </div>
+                        <h5 class="fs-5 pt-4 ">Admin Paneli Entegrasyonu</h5>
+                        <p class=" text-muted pt-3 mx-3 ">web sitelerin her zaman local olarak düzenlenmesi ileriki safhalarda imkansıza yakındır, bu yüzden bir admin paneli gereklidir. Admin paneli entegrasyonu hizmetimizden faydalanabilirsiniz.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="servies-item shadow p-4 rounded services-item-box ">
+                        <div class="icon text-success fs-1 ">
+                            <img src="img/icon2.png " alt=" ">
+                        </div>
+                        <h5 class="fs-5 pt-4 ">Responsive Tasarım</h5>
+                        <p class=" text-muted pt-3 mx-3 ">Günümüzün en çok önemli web kodlamalarından biri responsive tasarımdır. Ortalama üç cihazdan girilen sitenin cihazlara göre ayarlanması gerekmektedir. Adığınız hizmete otomatik olarak eklenir </p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="servies-item shadow p-4 rounded services-item-box ">
+                        <div class="icon text-success fs-1 ">
+                            <img src="img/icon3.png " alt=" ">
+                        </div>
+                        <h5 class="fs-5 pt-4 ">Web Tasarım</h5>
+                        <p class=" text-muted pt-3 mx-3 ">Web sitenin kullanıcı tarafından ilgiyle takip edilebilmesi için web dizaynda responsive kadar önemlidir. Hizmetimizle, sitedeki nesneleri en uygun şekilde dizayn ediyoruz.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!--Hizmetlerim Section Bitişi-->
 
 
 
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/jquery.min.js "></script>
 </body>
 
 </html>
