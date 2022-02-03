@@ -1,1 +1,0 @@
-# burhanakts.github.io
