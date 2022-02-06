@@ -116,6 +116,17 @@ h6 {
     line-height: 1.2
 }
 
+
+.cizgi::after {
+    content: '"';
+    width: 64px;
+    height: 2px;
+    background: #198754;
+    display: block;
+    text-indent: -9999em;
+    margin: 10px auto;
+}
+
 .h1,
 h1 {
     font-size: calc(1.375rem + 1.5vw)
