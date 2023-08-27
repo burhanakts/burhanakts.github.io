@@ -1,3 +1,4 @@
+DirectoryIndex index.php index.html index.htm
 #uzantı gizleme
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
